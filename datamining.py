@@ -3,10 +3,10 @@ import json
 import csv
 
 # 4 cadenas para la autenticacion
-consumer_key = "m9A6zkKb7la2ULZHv9uGVClpP"
-consumer_secret = "ucEWJAoBFnjrK7ucnELLabx1NEwLQtqT70Ww7vHbScrjIq7zJo"
-access_token = "3886903814-8TEOodnw2pqQByYzgALnWoCsD7UwijXqZVbkZb8"
-access_token_secret = "XNZjSRpT2sVU2HWXAJhY9IsoakeEqVYboxHoC9956H7PF"
+consumer_key = ""
+consumer_secret = ""
+access_token = ""
+access_token_secret = ""
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
